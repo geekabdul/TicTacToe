@@ -1,6 +1,6 @@
-$green: #12e177;
+$green: #5bf259;
 $orange: #ffc72a;
-$blue: #4c43d4;
+$blue: #53a6cf;
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -51,7 +51,7 @@ button {
         display: inline-block;
         height: 5px;
         width: 5px;
-        background-color: $green;
+        background-color: $orange;
         margin-right: 4px;
         margin-bottom: 1px;
       }
@@ -60,7 +60,7 @@ button {
         color: #fff;
         &.active {
           font-weight: bold;
-          color: $green;
+          color: $orange;
         }
       }
     }
@@ -88,10 +88,12 @@ button {
   &.active {
     background-color: $orange;
     box-shadow: none;
+    color: black;
   }
 }
 
 .board {
+  margin-top: 15px;
   .board-row {
     display: flex;
     flex-direction: row;
